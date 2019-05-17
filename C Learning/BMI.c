@@ -16,12 +16,13 @@ int main()
     BMI=m/(h*h);
     printf("你的BMI是%f\n",BMI);
     
-    /*展示BMI情况
-    printf("分类                  BMI\n");
-    printf("体重过低               小于18.5\n");
-    printf("正常范围               18.5-23.9\n");
-    printf("超重                  24.0-27.9\n");
-    printf("肥胖                  不小于28\n");*/
+    /*展示BMI情况*/
+    printf("分类                 BMI\n");
+    printf("过低              小于18.5\n");
+    printf("正常              18.5-23.9\n");
+    printf("超重              24.0-27.9\n");
+    printf("肥胖              不小于28\n");
+
     
     /*展示BMI情况*/
     if (BMI<18.5) {printf ("您体重过低\n");}
